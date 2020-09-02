@@ -1,3 +1,4 @@
+// Where X is the element being searched for in the array. - GJUK
 class GFG  
 {  
 public static int search(int arr[], int x) 
