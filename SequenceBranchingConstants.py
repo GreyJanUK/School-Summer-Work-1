@@ -1,6 +1,6 @@
 vcore = float(input("Enter voltage")) #step 1
 multiplier = int(input("Enter Ratio Multiplier (example, 41 for 4100MHz)"))#step 2
-baseclock = int(input("Enter Base Clock (example, 100MHz)"))# step
+baseclock = 100 #to keep the program simple I've kept this constant in this file, but it could also be imported from a seperate constants.py file to ensure it's not changed
 clockspeed = baseclock*multiplier # step 
 test = str(input("Would you like a basic analysis of your settings?"))
 response = test.lower()
